@@ -969,6 +969,7 @@ try {
 (
 	<DELETE>
 	<VERTEX>
+        [<FROM>]
 	jjtn000.fromClause = FromClause()
 	[ <RETURN> <BEFORE> { jjtn000.returnBefore = true; } ]
 	[ <WHERE> jjtn000.whereClause = WhereClause() ]
